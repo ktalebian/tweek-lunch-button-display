@@ -16,10 +16,7 @@ void setup() {
   food_is_served = false;
 
   pinMode(D2, INPUT_PULLUP);
-  pinMode(A0, OUTPUT);
 }
-
-int val = 0;
 
 void loop() {
   int pushButtonState = digitalRead(D2);
@@ -27,11 +24,6 @@ void loop() {
     food_is_served = true;
     food_time_served = millis();
   }
-  val += 10;
-  if (val > 255) {
-    val = 0;
-  }
-  analogWrite(A0, val);
 
   if (food_is_served) {
     unsigned long delta = millis() - food_time_served;
