@@ -1,11 +1,11 @@
 #ifndef OVERHEAD_DISPLAY_H
 #define OVERHEAD_DISPLAY_H
 
-#define FOOD_FIRT_CALL_MS 3000 // 15min
-#define FOOD_LAST_CALL_MS 2000 //15min
+#define FOOD_FIRT_CALL_MS 3000
+#define FOOD_LAST_CALL_MS 2000
+#define INTERVAL_DELAY_MS 1000
 
-#define INTERVAL_DELAY_MS 250
-
-#define ROOM_ID "console"
+#define INTERVAL_BROADCAST_MS 5000 // 5 sec
+#define MAX_RECOVERY_TIME_MS 10000
 
 #endif
