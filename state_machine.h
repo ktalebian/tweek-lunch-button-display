@@ -29,7 +29,7 @@ String get_room_id(void);
 String get_device_id(void);
 unsigned long get_lunch_duration(void);
 
-#define LUNCH_DURATION_MS 5000
+#define LUNCH_DURATION_MS 30000
 #define RECOVERY_DURATION_MS 10000
 #define CONFIRM_DURATION_MS 1000
 #define BACKUP_INTERVAL_MS 10000
