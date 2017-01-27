@@ -1,11 +1,10 @@
 #ifndef OVERHEAD_DISPLAY_H
 #define OVERHEAD_DISPLAY_H
 
-#define FOOD_FIRT_CALL_MS 3000
-#define FOOD_LAST_CALL_MS 2000
-#define INTERVAL_DELAY_MS 1000
+#include "Particle.h"
+#include "display.h"
+#include "state_machine.h"
 
-#define INTERVAL_BROADCAST_MS 5000 // 5 sec
-#define MAX_RECOVERY_TIME_MS 10000
+#define LED_POWER D6
 
 #endif
